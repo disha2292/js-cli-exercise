@@ -1,31 +1,74 @@
 # js-cli-exercise
-exercise solution (ITPL)
-Dataset
-https://www.kaggle.com/datasets/lava18/google-play-store-apps
-CLI Exercise
-List apps with total review count, and add search functionality with --search flag.
-Create a command that accepts a name as input and prints details of the app (including reviews).
-List most liked (install x rating) command which accepts filters such as category, rating, size, and type and prints the apps.
-Apps having (0 to 0.5) highest objective and positive review.
-Create a command that prints the analytics:
-5.1. Number of apps in the store.
-5.2. Print the count with size. (ie. 30% of apps have 300MB)
-5.3. Number of unique genres.
-5.4. Number of unique categories.
-5.5. App having the most reviews.
-5.6. App having least review.
-5.7. App having the most downloads.
-5.8. App having the least downloads.
-5.9. Total Play Store size.
-5.10 Total Installs.
-CLI Exercise Constraints
-Make sure the whenever you are doing the list please include the pagination parameters which are below mentioned Here are the below pagination parameters.
---skip flag is used to skip the N records.
---limit flag is used to limit the M records.
---order flag is used for ASC | DSC orders.
---order-by flag defines the column on which order is applied.
---selects=col1,col2 prints only col1, and col2 out of the whole table.
-More info :
-Perform tasks in JS Exercise folder: js-cli-exercise
-README.md
+## Requirements
+
+For development, you will only need Node.js and a node global package manager npm installed in your environement.
+
+### Node
+- #### Node installation on Macos
+  Open Terminal.
+Install Homebrew if you haven't already:
+  ```
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  ```
+  Install Node.js:
+  ```
+  brew install node
+  ```
+
+- #### Node installation on Linux(Garuda)
+    You can install nodejs and npm easily with pacman (use package manager based on ypur distro), just run the following commands.
+     ```
+     sudo pacman -S nodejs npm
+- #### Node installation on Windows
+  
+  Just go on [official Node.js website](https://nodejs.org/) and download the installer.
+Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).
+
+## Install
+  ```
+   $ git clone https://github.com/disha2292/js-cli-exercise.git
+  ```
+  ```
+   $ cd js-cli-exercise
+  ```
+   Install Dependencies
+   ```
+   npm install
+   ```
+# Examples
+### Question-1) List apps with total review count, and add search functionality with --search flag.
+  **RUN**
+  ```
+  node file.js
+  ```
+  **OUTPUT**
+  
+### Question-2) Command that accepts a name as input and prints details of the app (including reviews).
+  **RUN**
+  ```
+  node file.js
+  ```
+  **OUTPUT** 
+### Question-3) List most liked (install x rating) Apps also create command which accepts filters such as category, rating, size, and type and prints the apps.
+  **RUN**
+  ```
+  node file.js
+  ```
+  **OUTPUT**
+### Question-4) Apps having (0 to 0.5) highest objective and positive review.
+  **RUN**
+  ```
+  node file.js
+  ```
+  **OUTPUT**
+### Question-5) Create a command that prints the analytics (e.g.Number of Apps , percentage count w.r.t to size , unique genres & categories , most and least reviewed apps , most and least downloaded apps , total playstore aize and total installs.)
+  **RUN**
+  ```
+  node file.js
+  ```
+  **OUTPUT**
+
+
+
+ 
 
